@@ -1,0 +1,47 @@
+[
+  {
+    "pat_id": "PAT_001",
+    "reg_no": "REG_001",
+    "exam_no": "EXAM_001_001",
+    "exam_item": "REDACTED_EXAM_ITEM",
+    "report_time": "2024-05-24",
+    "mani": "REDACTED_FOR_PUBLIC_SAMPLE",
+    "conclusion": "REDACTED_FOR_PUBLIC_SAMPLE"
+  },
+  {
+    "pat_id": "PAT_002",
+    "reg_no": "REG_002",
+    "exam_no": "EXAM_002_001",
+    "exam_item": "REDACTED_EXAM_ITEM",
+    "report_time": "2023-08-04",
+    "mani": "REDACTED_FOR_PUBLIC_SAMPLE",
+    "conclusion": "REDACTED_FOR_PUBLIC_SAMPLE"
+  },
+  {
+    "pat_id": "PAT_003",
+    "reg_no": "REG_003",
+    "exam_no": "EXAM_003_001",
+    "exam_item": "REDACTED_EXAM_ITEM",
+    "report_time": "2023-06-15",
+    "mani": "REDACTED_FOR_PUBLIC_SAMPLE",
+    "conclusion": "REDACTED_FOR_PUBLIC_SAMPLE"
+  },
+  {
+    "pat_id": "PAT_004",
+    "reg_no": "REG_004",
+    "exam_no": "EXAM_004_001",
+    "exam_item": "REDACTED_EXAM_ITEM",
+    "report_time": "2024-11-09",
+    "mani": "REDACTED_FOR_PUBLIC_SAMPLE",
+    "conclusion": "REDACTED_FOR_PUBLIC_SAMPLE"
+  },
+  {
+    "pat_id": "PAT_005",
+    "reg_no": "REG_005",
+    "exam_no": "EXAM_005_001",
+    "exam_item": "REDACTED_EXAM_ITEM",
+    "report_time": "2024-06-08",
+    "mani": "REDACTED_FOR_PUBLIC_SAMPLE",
+    "conclusion": "REDACTED_FOR_PUBLIC_SAMPLE"
+  }
+]

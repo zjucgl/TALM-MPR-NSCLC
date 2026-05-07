@@ -1,0 +1,96 @@
+{
+  "paths": {
+    "input_root": "/data/share/hospital_2",
+    "tensor_root": "data/tensors",
+    "output_dir": "outputs",
+    "m2_norm_params_file": "m2_norm_params.pt",
+    "m1_m2_json": "dataset/m1_m2.json",
+    "m3_json": "dataset/lab.json",
+    "labels_json": "dataset/main_pat_mpr.json"
+  },
+  "data": {
+    "window_days": 7,
+    "time_scale_days": 90.0,
+    "max_time_delta": 3.0,
+    "allow_missing_m2_norm": true,
+    "keep_missing_imaging_records": false,
+    "tensor_suffixes": {
+      "roi": "_roi_128.pt",
+      "context": "_context_256.pt",
+      "radiomics": "_radiomics.pt"
+    },
+    "missing_tensor_shapes": {
+      "roi": [1, 128, 128, 128],
+      "context": [1, 256, 256, 256]
+    }
+  },
+  "model_dims": {
+    "m2_input_dim": 293,
+    "m3_input_dim": 71,
+    "latent_space_d": 128
+  },
+  "model": {
+    "dropout": 0.4,
+    "time_dropout": 0.5,
+    "head_dropout": 0.5,
+    "fusion_temperature": 2.0,
+    "fusion_prior_bias": [0.5, -0.5, 0.2],
+    "normalize_modalities": true
+  },
+  "training": {
+    "batch_size": 2,
+    "epochs": 20,
+    "learning_rate": 0.00005,
+    "cnn_learning_rate": 0.000005,
+    "weight_decay": 0.05,
+    "freeze_cnn_epochs": 3,
+    "extension_patience": 25,
+    "extension_epochs": 15,
+    "num_workers": 4,
+    "pin_memory": true
+  },
+  "augmentation": {
+    "enabled": true,
+    "flip_probability": 0.5,
+    "flip_dims": [3, 4, 5],
+    "roi_noise_std": 0.02
+  },
+  "loss": {
+    "pos_weight": 0.35,
+    "temporal_sample_weight": 1.0
+  },
+  "scheduler": {
+    "t_0": 15,
+    "t_mult": 2,
+    "eta_min": 0.000001
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "shuffle": true
+  },
+  "evaluation": {
+    "prediction_threshold": 0.5,
+    "bootstrap_samples": 1000,
+    "dca_reference_threshold": 0.2
+  },
+  "runtime": {
+    "seed": 42,
+    "device": "auto",
+    "amp": true
+  },
+  "outputs": {
+    "checkpoint_pattern": "mpr_aligned_best_fold{fold}.pth",
+    "fold_oof_pattern": "pooled_oof_aligned_fold_{fold}.csv",
+    "oof_filename": "pooled_oof_aligned.csv"
+  },
+  "parallel": {
+    "max_workers": 5,
+    "fold_to_device": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 1
+    }
+  }
+}

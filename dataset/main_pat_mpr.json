@@ -1,0 +1,37 @@
+[
+  {
+    "pat_id": "PAT_001",
+    "reg_no": [
+      "REG_001"
+    ],
+    "MPR": "0"
+  },
+  {
+    "pat_id": "PAT_002",
+    "reg_no": [
+      "REG_002"
+    ],
+    "MPR": "1"
+  },
+  {
+    "pat_id": "PAT_003",
+    "reg_no": [
+      "REG_003"
+    ],
+    "MPR": "1"
+  },
+  {
+    "pat_id": "PAT_004",
+    "reg_no": [
+      "REG_004"
+    ],
+    "MPR": "1"
+  },
+  {
+    "pat_id": "PAT_005",
+    "reg_no": [
+      "REG_005"
+    ],
+    "MPR": "0"
+  }
+]

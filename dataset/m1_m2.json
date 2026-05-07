@@ -1,0 +1,127 @@
+[
+  {
+    "reg_no": "REG_001",
+    "time_steps": [
+      {
+        "date": "2024-05-29",
+        "file_path": "/data/share/hospital_2/example/PAT_001/REG_001/timepoint_01"
+      },
+      {
+        "date": "2024-05-30",
+        "file_path": "/data/share/hospital_2/example/PAT_001/REG_001/timepoint_02"
+      },
+      {
+        "date": "2024-05-31",
+        "file_path": "/data/share/hospital_2/example/PAT_001/REG_001/timepoint_03"
+      },
+      {
+        "date": "2024-06-02",
+        "file_path": "/data/share/hospital_2/example/PAT_001/REG_001/timepoint_04"
+      },
+      {
+        "date": "2024-06-04",
+        "file_path": "/data/share/hospital_2/example/PAT_001/REG_001/timepoint_05"
+      },
+      {
+        "date": "2024-06-08",
+        "file_path": "/data/share/hospital_2/example/PAT_001/REG_001/timepoint_06"
+      }
+    ]
+  },
+  {
+    "reg_no": "REG_002",
+    "time_steps": [
+      {
+        "date": "2023-08-04",
+        "file_path": "/data/share/hospital_2/example/PAT_002/REG_002/timepoint_01"
+      },
+      {
+        "date": "2023-08-19",
+        "file_path": "/data/share/hospital_2/example/PAT_002/REG_002/timepoint_02"
+      },
+      {
+        "date": "2023-08-22",
+        "file_path": "/data/share/hospital_2/example/PAT_002/REG_002/timepoint_03"
+      },
+      {
+        "date": "2023-08-29",
+        "file_path": "/data/share/hospital_2/example/PAT_002/REG_002/timepoint_04"
+      },
+      {
+        "date": "2023-12-27",
+        "file_path": "/data/share/hospital_2/example/PAT_002/REG_002/timepoint_05"
+      }
+    ]
+  },
+  {
+    "reg_no": "REG_003",
+    "time_steps": [
+      {
+        "date": "2023-07-09",
+        "file_path": "/data/share/hospital_2/example/PAT_003/REG_003/timepoint_01"
+      },
+      {
+        "date": "2023-07-18",
+        "file_path": "/data/share/hospital_2/example/PAT_003/REG_003/timepoint_02"
+      },
+      {
+        "date": "2023-07-24",
+        "file_path": "/data/share/hospital_2/example/PAT_003/REG_003/timepoint_03"
+      },
+      {
+        "date": "2023-08-06",
+        "file_path": "/data/share/hospital_2/example/PAT_003/REG_003/timepoint_04"
+      }
+    ]
+  },
+  {
+    "reg_no": "REG_004",
+    "time_steps": [
+      {
+        "date": "2024-11-10",
+        "file_path": "/data/share/hospital_2/example/PAT_004/REG_004/timepoint_01"
+      },
+      {
+        "date": "2024-11-14",
+        "file_path": "/data/share/hospital_2/example/PAT_004/REG_004/timepoint_02"
+      },
+      {
+        "date": "2024-11-19",
+        "file_path": "/data/share/hospital_2/example/PAT_004/REG_004/timepoint_03"
+      },
+      {
+        "date": "2024-11-29",
+        "file_path": "/data/share/hospital_2/example/PAT_004/REG_004/timepoint_04"
+      },
+      {
+        "date": "2024-12-06",
+        "file_path": "/data/share/hospital_2/example/PAT_004/REG_004/timepoint_05"
+      }
+    ]
+  },
+  {
+    "reg_no": "REG_005",
+    "time_steps": [
+      {
+        "date": "2024-06-12",
+        "file_path": "/data/share/hospital_2/example/PAT_005/REG_005/timepoint_01"
+      },
+      {
+        "date": "2024-06-15",
+        "file_path": "/data/share/hospital_2/example/PAT_005/REG_005/timepoint_02"
+      },
+      {
+        "date": "2024-06-16",
+        "file_path": "/data/share/hospital_2/example/PAT_005/REG_005/timepoint_03"
+      },
+      {
+        "date": "2024-06-17",
+        "file_path": "/data/share/hospital_2/example/PAT_005/REG_005/timepoint_04"
+      },
+      {
+        "date": "2024-06-22",
+        "file_path": "/data/share/hospital_2/example/PAT_005/REG_005/timepoint_05"
+      }
+    ]
+  }
+]
